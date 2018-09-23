@@ -1,4 +1,5 @@
-require './url_parser'
+# require './url_parser'
+require './url_parser_uri'
 
 describe UrlParser do
   context 'with all parts' do

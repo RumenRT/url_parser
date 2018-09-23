@@ -41,3 +41,11 @@ class UrlParser
   end
 
 end
+
+h =  UrlParser.new("http://www.google.com:60/search?q=cat&name=Tim#img=FunnyCat")
+p h.port
+p h.domain
+p h.path
+p h.scheme
+p h.query_string
+p h.fragment_id
